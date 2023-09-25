@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.form{
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+   align-items: center;
+    gap:20px ;
+    width: 60%;
+    background-color: pink;
+    padding-bottom: 10px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    background-color: pink;
+    width: 60%;
+    margin-bottom: 0;
+    padding-top: 1%;
+}
+
+.gender-wrap{
+    display: flex;
+}
+.gender{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    gap:20px;
+    
+}
+
+label{
+    min-width: 150px;
+    
+}
+
+.register{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+.error{
+    display: none;
+}
+.error-show{
+    color: red;
+    margin-left: 50px;
+    display: flex;
+    margin-left: 0;
+    margin-right: -60px;
+}
+
+.error-mismatch{
+    color: red;
+    margin-left: 50px;
+    display: flex;
+    margin-left: 0;
+    margin-right: -175px;
+}
